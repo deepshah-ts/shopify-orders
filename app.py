@@ -333,7 +333,6 @@ def main():
             show_columns = st.multiselect(
                 "Select Columns to Display",
                 options=CSV_FIELDNAMES,
-                default=["ORDER ID", "DATE", "NAME", "EMAIL", "SKU", "QUANTITY", "Shipping address city"]
             )
         
         # Filter dataframe based on search
